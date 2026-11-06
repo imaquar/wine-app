@@ -7,3 +7,5 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 
 для модели используется st.cache_resource, потому что один объект пайплайна можно использовать повторно, для таблицы и вероятностей используется st.cache_data чтобы не читать и не вычислять их заново при изменении порога. без кэшиирования joblib.load вызывался бы при каждом действии
+
+streamlit - https://wine-app-w5d2deiuv6gqretzzgzhya.streamlit.app/
