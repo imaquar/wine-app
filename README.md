@@ -1,6 +1,6 @@
 Python 3.13.0
 
-в терминале в папке wine_app выполнить команды:
+в терминале в папке wine-app выполнить команды:
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
